@@ -41,5 +41,5 @@ int main() {
 
 void test_printop(void)
 {
-	CU_ASSERT(1==printop(1));
+	CU_ASSERT(1 == printop(1));
 }
