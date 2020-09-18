@@ -6,7 +6,7 @@
 #define PROJECT_NAME    "DisplayOP"
 
 /* Prototypes for all the test functions */
-void test_printop();
+void test_printop(void);
 
 /* Start of the application test */
 int main() {
