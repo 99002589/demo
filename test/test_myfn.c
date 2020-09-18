@@ -21,6 +21,7 @@ int main() {
   /* Add your test functions in this format for testing*/
 
   CU_add_test(suite, "printop",test_printop);
+	
 
 
 /* Note: Do not edit START*/
@@ -40,5 +41,5 @@ int main() {
 
 void test_printop(void)
 {
-	CU_ASSERT("Hello 1"==printop(1));
+	CU_ASSERT(1==printop(1));
 }
