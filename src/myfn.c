@@ -1,7 +1,7 @@
 #include<myfn.h>
 
 
-void printop(int a)
+int printop(int a)
 {
-	printf("%d",a);
+	return a;
 }
