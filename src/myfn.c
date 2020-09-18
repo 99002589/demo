@@ -3,5 +3,5 @@
 
 void printop(int a)
 {
-	printf("hello %d",a);
+	printf("%d",a);
 }
