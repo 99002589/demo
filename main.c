@@ -14,7 +14,7 @@ int main()
 	scanf("%d",&a);
    while(1)
 	{
-		printf("%d",printop(a));
+		printf("%s",printop(a));
 	}
    return 0;
 }
